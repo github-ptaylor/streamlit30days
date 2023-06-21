@@ -1,16 +1,18 @@
-# Challenge Day 17
+# Challenge Day 18
 
-# Use the st.file_uploader widget to accept 
+# Use the st.file_uploader widget to accept a CSV file from the desktop
 
 # Goal:
-# 1. Display the contents of (st.secrets) message varibale
+# 1. Display file uploader box
+# 2. Display the contents of uploaded CSV file in table using Panda
+# 3. Display an analysis of file data using Panda (describe) function
+
 
 import streamlit as st
 import pandas as pd
 
 st.title('ST.FILE_UPLOADER')
 st.subheader('Input CSV')
-
 
 uploaded_file = st.file_uploader("Choose a file")
 
