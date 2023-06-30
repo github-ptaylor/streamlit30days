@@ -1,0 +1,16 @@
+[INFO]
+
+https://30days.streamlit.app/?challenge=Day28
+
+streamlit-shap is a Streamlit component that provides a wrapper to display SHAP plots in Streamlit.
+
+The library is developed by our in-house staff Snehan Kekre who also maintains the Streamlit Documentation website.
+
+Firstly, install Streamlit (of course!) then pip install the streamlit-shap library:
+
+
+pip install streamlit
+pip install streamlit-shap
+
+There are also other prerequisite libraries to install (e.g. matplotlib, pandas, scikit-learn and xgboost) if you haven't yet done so.
+
